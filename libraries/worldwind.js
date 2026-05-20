@@ -45581,7 +45581,6 @@ define('layer/DigitalGlobeTiledImageLayer',[
              * @type {String}
              */
             this.accessToken = accessToken;
-            //"pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6IjljZjQwNmEyMTNhOWUyMWM5NWUzYWIwOGNhYTY2ZDViIn0.Ju3tOUUUc0C_gcCSAVpFIA";
 
             this.displayName = displayName;
             // TODO: Picking is enabled as a temporary measure for screen credit hyperlinks to work (see Layer.render)
