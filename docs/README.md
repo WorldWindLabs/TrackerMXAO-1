@@ -117,7 +117,7 @@ visualización y planeación general es más que suficiente.
 ## Geometría del satélite y huella del sensor
 
 MXÁO-1 está en órbita solar-síncrona (SSO) a ~521 km de altitud, con inclinación
-~97.4° y período ~95 minutos. Esto significa:
+~97.4° y período ~95 minutos. Esto significa lo siguiente:
 
 - **Pasa sobre cada lugar a la misma hora local.** La SSO mantiene un ángulo
   constante respecto al Sol, lo cual asegura iluminación consistente para
