@@ -225,8 +225,7 @@ con tus detecciones es un buen ejercicio.
 
 **Lo que vas a aprender:** algoritmos espacio-temporales (k-d trees, sweep and prune),
 gestión de remoción activa de basura espacial (ADR), conciencia situacional espacial
-(SSA). Es un área de investigación con relevancia creciente para el sector espacial
-espacial.
+(SSA). Es un área de investigación con relevancia creciente para el sector espacial.
 
 ---
 
