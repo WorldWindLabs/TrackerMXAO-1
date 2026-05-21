@@ -411,7 +411,7 @@ function toggleRepresentation() {
 // ---------------------------------------------------------------------------
 // Muestra un cuadro de diálogo con instrucciones básicas de uso.
 function openHelp() {
-    alert("Ésta herramienta muestra la ubicación actual del satélite MXÁO-1 y su centro de monitoreo y análisis. También se muestra una órbita en el pasado (roja) y una en el futuro (verde).\n\nRepresentación: 3D o 2D\nSeguir: Activado o Desactivado. Cuando está activado, la posición se bloquea en el satélite, pero aún es posible acercar y alejar la cámara.");
+    alert("Esta herramienta muestra la ubicación actual del satélite MXÁO-1 y su centro de monitoreo y análisis. También se muestra una órbita en el pasado (roja) y una en el futuro (verde).\n\nRepresentación: 3D o 2D\nSeguir: Activado o Desactivado. Cuando está activado, la posición se bloquea en el satélite, pero aún es posible acercar y alejar la cámara.");
 }
 
 // ---------------------------------------------------------------------------

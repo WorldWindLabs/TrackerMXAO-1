@@ -4,6 +4,14 @@ Aplicación web mínima que muestra en tiempo real la posición orbital de MXÁO
 —el primer satélite de observación de la Tierra de la alcaldía Álvaro Obregón—
 junto con su traza orbital pasada y futura y las estaciones terrenas que lo soportan.
 
+Estructura del proyecto:
+
+- Un archivo HTML: `index.html`
+- Un archivo en JavaScript: `app.js`
+- Un archivo CSS: `style.css`
+- Dos bibliotecas externas: `libraries/worldwind.js` y `libraries/satellite.js`
+
+
 Construido sobre [NASA Web WorldWind](https://github.com/NASAWorldWind/WebWorldWind)
 para visualización 3D y [satellite.js](https://github.com/shashwatak/satellite-js)
 para propagación orbital. Basado en el [rastreador de la EEI de Yann Voumard](https://github.com/AkeluX).
@@ -15,11 +23,12 @@ Tutoriales, ejemplos y documentación de Web WorldWind:
 - https://worldwind.arc.nasa.gov/web/examples
 - https://worldwind.arc.nasa.gov/autodocs/WebWorldWind/
 
-Éste proyecto está escrito en JavaScript ES5 deliberadamente, para mantener consistencia
+Este proyecto está escrito en JavaScript ES5 deliberadamente, para mantener consistencia
 con la biblioteca Web WorldWind 0.9.0 que también está en ES5. El objetivo es que cualquier
-estudiante pueda abrir cualquier archivo del proyecto, incluyendo `libraries/worldwind.js`, y leer
-código con la misma sintaxis y convenciones. Cuando NASA libere una versión ES6/TypeScript
-estable de WorldWind, este proyecto será migrado en consecuencia.
+estudiante pueda abrir cualquier archivo del proyecto, incluyendo las dos dependencias en
+`libraries/worldwind.js` y `libraries/satellite.js`, y leer código con la misma sintaxis y 
+convenciones. Cuando NASA libere una versión ES6/TypeScript estable de WorldWind,
+se considerará migrar este proyecto en consecuencia.
 
 **Demo en vivo:** http://mxao-1.surge.sh/
 **Licencia:** Apache 2.0
@@ -170,7 +179,7 @@ modificar más código. Bonus: cambia el ícono y la etiqueta del satélite.
 **Lo que vas a aprender:** lectura del formato TLE, cómo se cataloga un objeto
 en órbita, qué significa cada parámetro orbital.
 
-Un momento... ése directorio de `data` ¿Qué contendrá? 🤔
+Un momento... ese directorio de `data` ¿Qué contendrá? 🤔
 
 ### Intermedio — predicción de pases sobre un punto
 
@@ -236,12 +245,6 @@ gestión de remoción activa de basura espacial (ADR), conciencia situacional es
 (SSA). Es un área de investigación con relevancia creciente para el sector espacial.
 
 ---
-Ah, hay un detalle importante: la última versión publicada en npm es 0.11.0 (de hace ~6 meses), no 0.10.0 ni 0.9.0. La cronología es: 0.9.0 fue el primer release público (2017), 0.10.0 actualizó dependencias y atendió vulnerabilidades, y 0.11.0 agregó mejoras a Collada y mantenimiento general. La documentación oficial todavía referencia 0.9.0 por inercia (hay un issue abierto al respecto), pero la versión activa es 0.11.0.
-
-Lo señalo porque en tu README dice 0.9.0 — sospecho que es porque copiaste el número de la documentación oficial que está desactualizada, no porque verificaras la versión del archivo worldwind.js que tienes en libraries/. Si quieres ser preciso, abre el archivo y busca cerca del inicio una cadena tipo VERSION = "0.X.0" y úsala. Si no quieres meterte en eso, "Web WorldWind" sin número específico funciona y evita el problema.
-
-Aquí va el README con la sección Kotlin integrada, el directorio data explicado, el ajuste de versión, y un par de cosas más que vale la pena agregar:
-markdown
 
 # Rastreador orbital MXÁO-1
 
