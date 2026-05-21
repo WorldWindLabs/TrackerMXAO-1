@@ -15,6 +15,12 @@ Tutoriales, ejemplos y documentación de Web WorldWind:
 - https://worldwind.arc.nasa.gov/web/examples
 - https://worldwind.arc.nasa.gov/autodocs/WebWorldWind/
 
+Éste proyecto está escrito en JavaScript ES5 deliberadamente, para mantener consistencia
+con la biblioteca Web WorldWind 0.9.0 que también está en ES5. El objetivo es que cualquier
+estudiante pueda abrir cualquier archivo del proyecto, incluyendo `libraries/worldwind.js`, y leer
+código con la misma sintaxis y convenciones. Cuando NASA libere una versión ES6/TypeScript
+estable de WorldWind, este proyecto será migrado en consecuencia.
+
 **Demo en vivo:** http://mxao-1.surge.sh/
 **Licencia:** Apache 2.0
 
@@ -163,6 +169,8 @@ modificar más código. Bonus: cambia el ícono y la etiqueta del satélite.
 
 **Lo que vas a aprender:** lectura del formato TLE, cómo se cataloga un objeto
 en órbita, qué significa cada parámetro orbital.
+
+Un momento... ése directorio de `data` ¿Qué contendrá? 🤔
 
 ### Intermedio — predicción de pases sobre un punto
 
